@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project-5</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/master.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="scroller"></div>
+    <!-- Start Setting box -->
+    <div class="setting-box">
+      <div class="gear-btn">
+        <i class="fa-solid fa-gear gear-icon"></i>
+      </div>
+      <div class="settings">
+        <div class="option-box">
+          <h3>Colors</h3>
+          <ul class="colors-list">
+            <li data-color="#ff5722" class="active"></li>
+            <li data-color="#00bcd4"></li>
+            <li data-color="#9c27b0"></li>
+            <li data-color="#fdd835"></li>
+            <li data-color="#4caf50"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h3>Random Background</h3>
+          <div class="background-option">
+            <span data-background="yes" class="yes active">Yes</span>
+            <span data-background="no" class="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h3>Showing Bullets</h3>
+          <div class="bullets-option">
+            <span data-bullet="enable" class="yes active">Yes</span>
+            <span data-bullet="disable" class="no">No</span>
+          </div>
+        </div>
+        <span class="reset-btn">Reset</span>
+      </div>
+    </div>
+    <!-- End Setting box -->
+
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <a href="http://github.com/ebrahim-anees" target="_blank">
+              <img src="images/signature/signature1.png" alt="" />
+            </a>
+          </div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="#" data-section=".about-us">About</a></li>
+              <li><a href="#" data-section=".skills">Skills</a></li>
+              <li><a href="#" data-section=".gallery">Gallery</a></li>
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" data-section=".features">Features</a></li>
+              <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+            </ul>
+            <button class="toggle-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+        <div class="intro-text">
+          <h1>We are <span>Creative</span> Ageny</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
+            obcaecati officiis excepturi odit perspiciatis molestiae voluptate
+            totam. Excepturi, distinctio sint
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Landing Page -->
+
+    <!-- Start About us -->
+    <div class="about-us">
+      <div class="container">
+        <h2>About Us</h2>
+        <div class="info-box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ea
+            eius impedit quaerat veniam obcaecati adipisci facilis ducimus fuga.
+            Accusamus eveniet iste soluta ducimus voluptatem deleniti vero optio
+            quas! Dolores.
+          </p>
+          <div class="image">
+            <img src="images/about-us/about-us1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About us -->
+
+    <!-- Start Skills -->
+    <div class="skills">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-prg html">
+            <span data-prg="75%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-prg css">
+            <span data-prg="82%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JS</div>
+          <div class="skill-prg js">
+            <span data-prg="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Php</div>
+          <div class="skill-prg php">
+            <span data-prg="50%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">MySQL</div>
+          <div class="skill-prg sql">
+            <span data-prg="60%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Python</div>
+          <div class="skill-prg py">
+            <span data-prg="45%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Skills -->
+
+    <!-- Start Gallery -->
+    <div class="gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="imgs-box">
+          <div class="box">
+            <div class="image">
+              <img src="images/gallery/image2.jpg" alt="Image 1" />
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/gallery/image3.jpg" alt="Image 2" />
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/gallery/image4.jpg" alt="Image 3" />
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/gallery/image5.jpg" alt="Image 4" />
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/gallery/image6.jpg" alt="Image 5" />
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/gallery/image12.jpg" alt="Image 6" />
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/gallery/image17.jpg" alt="Image 7" />
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/gallery/image18.jpg" alt="Image 8" />
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/gallery/image19.jpg" alt="Image 9" />
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/gallery/image20.jpg" alt="Image 10" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Gallery -->
+
+    <!-- Start timeline -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2024</div>
+          <div class="left">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+              eligendi iusto officiis soluta. Nihil quidem, architecto nisi
+              ducimus excepturi quod aliquid vel eum, dicta placeat, qui
+              pariatur expedita dolor? Voluptatum!
+            </p>
+          </div>
+          <div class="clear"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Delectus eligendi iusto officiis soluta. Nihil quidem,
+                architecto nisi ducimus excepturi quod aliquid vel eum, dicta
+                placeat, qui pariatur expedita dolor? Voluptatum!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-content">
+          <div class="year">2020</div>
+          <div class="left">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+              eligendi iusto officiis soluta. Nihil quidem, architecto nisi
+              ducimus excepturi quod aliquid vel eum, dicta placeat, qui
+              pariatur expedita dolor? Voluptatum!
+            </p>
+          </div>
+          <div class="clear"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Delectus eligendi iusto officiis soluta. Nihil quidem,
+                architecto nisi ducimus excepturi quod aliquid vel eum, dicta
+                placeat, qui pariatur expedita dolor? Voluptatum!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End timeline -->
+
+    <!-- Start features -->
+    <div class="features">
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="feature-container">
+          <div class="feat-box">
+            <i class="fa-solid fa-laptop-code fa-fw"></i>
+            <h3>Web Development</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Corrupti, quibusdam
+            </p>
+          </div>
+          <div class="feat-box">
+            <i class="fa-solid fa-chart-line fa-fw"></i>
+            <h3>Data Analysis</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Corrupti, quibusdam
+            </p>
+          </div>
+          <div class="feat-box">
+            <i class="fa-solid fa-camera-retro fa-fw"></i>
+            <h3>Photography</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Corrupti, quibusdam
+            </p>
+          </div>
+          <div class="feat-box">
+            <i class="fa-solid fa-magnifying-glass-chart fa-fw"></i>
+            <h3>Business</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Corrupti, quibusdam
+            </p>
+          </div>
+          <div class="feat-box">
+            <i class="fa-solid fa-wand-magic-sparkles fa-fw"></i>
+            <h3>Graphic Design</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Corrupti, quibusdam
+            </p>
+          </div>
+          <div class="feat-box">
+            <i class="fa-solid fa-stethoscope fa-fw"></i>
+            <h3>Medicine</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Corrupti, quibusdam
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End features -->
+
+    <!-- Start testimonials -->
+    <div class="testimonials">
+      <h2>Testimonials</h2>
+      <div class="container">
+        <div class="content">
+          <div class="box">
+            <div class="feedback">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestiae ad dolor maxime, mollitia recusandae architecto iusto
+                nulla cum, minus facere illo neque est delectus .
+              </p>
+            </div>
+            <hr />
+            <div class="info">
+              <img src="images/avatars/avatar-01.png" alt="" />
+              <h4>Mohamed Ashraf</h4>
+              <span>Full Stack Developer</span>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="feedback">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestiae ad dolor maxime, mollitia recusandae architecto iusto
+                nulla cum, minus facere illo neque est delectus .
+              </p>
+            </div>
+            <hr />
+            <div class="info">
+              <img src="images/avatars/avatar-02.png" alt="" />
+              <h4>Ahmed Ali</h4>
+              <span>Frontend Developer</span>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="feedback">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestiae ad dolor maxime, mollitia recusandae architecto iusto
+                nulla cum, minus facere illo neque est delectus .
+              </p>
+            </div>
+            <hr />
+            <div class="info">
+              <img src="images/avatars/avatar-03.png" alt="" />
+              <h4>Zyad Sobhi</h4>
+              <span>Graphic Designer</span>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="feedback">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestiae ad dolor maxime, mollitia recusandae architecto iusto
+                nulla cum, minus facere illo neque est delectus .
+              </p>
+            </div>
+            <hr />
+            <div class="info">
+              <img src="images/avatars/avatar-04.png" alt="" />
+              <h4>Hossam Osama</h4>
+              <span>Backend Developer</span>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="feedback">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestiae ad dolor maxime, mollitia recusandae architecto iusto
+                nulla cum, minus facere illo neque est delectus .
+              </p>
+            </div>
+            <hr />
+            <div class="info">
+              <img src="images/avatars/avatar-05.png" alt="" />
+              <h4>Tawfiq Mansor</h4>
+              <span>Full Stack Developer</span>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="feedback">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestiae ad dolor maxime, mollitia recusandae architecto iusto
+                nulla cum, minus facere illo neque est delectus .
+              </p>
+            </div>
+            <hr />
+            <div class="info">
+              <img src="images/avatars/avatar-06.png" alt="" />
+              <h4>Shady Ehab</h4>
+              <span>Javascript Developer</span>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End testimonials -->
+
+    <!-- Start Contact -->
+    <div class="contact-us">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="info-container">
+            <div class="left">
+              <input type="text" placeholder="Your Name" name="username" />
+              <input type="text" placeholder="Your Phone" name="phone" />
+              <input type="email" placeholder="Your Email" name="email" />
+              <input type="text" placeholder="Subject" name="Subject" />
+            </div>
+            <div class="right">
+              <textarea placeholder="Your Message" name="msg"></textarea>
+            </div>
+          </div>
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </div>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <div class="footer">
+      <p>
+        Created with <span> &hearts; </span> by
+        <a href="http://github.com/ebrahim-anees" target="_blank">
+          <img src="images/signature.png" alt="" />
+        </a>
+      </p>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Start nav-bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".skills">
+        <div class="tool-tip">Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tool-tip">Gallery</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tool-tip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tool-tip">Features</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tool-tip">Testimonials</div>
+      </div>
+    </div>
+    <!-- end nav-bullets -->
+
+    <!-- up-arrow -->
+    <span class="up"><i class="fa-solid fa-up-long"></i></span>
+
+    <script src="js/master.js"></script>
+  </body>
+</html>
